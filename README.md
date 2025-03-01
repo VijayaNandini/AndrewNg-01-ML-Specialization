@@ -200,5 +200,29 @@ Concluding, this is a course which I would recommend everyone to take. Not just 
 **Happy Learning :))**
 
 
- 
+
+## Virtual Environment
+For Windows Machine, open Powershell in terminal and run the below commands
+
+1. Create venv
+    ~~~
+    python -m venv .venv
+    ~~~
+2. Activate venv
+    ~~~
+    .venv/Scripts/activate
+    ~~~
+3. Install necessary packages using any of the below commands
+    ~~~
+    pip install numpy 
+    ~~~
+    or
+    ~~~
+    pip install -r requirements.txt
+    ~~~
+4. Deactivate venv
+    ~~~
+    deactivate
+    ~~~
+
  
